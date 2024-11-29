@@ -7,7 +7,6 @@ public class CourierCredentials {
         this.password = password;
     }
 
-    // Геттеры и сеттеры
     public String getLogin() {
         return login;
     }
