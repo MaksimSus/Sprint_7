@@ -4,32 +4,24 @@ public class Order {
 
     @JsonProperty("firstName")
     private String firstName;
-
     @JsonProperty("lastName")
     private String lastName;
-
     @JsonProperty("address")
     private String address;
-
     @JsonProperty("metroStation")
     private String metroStation;
-
     @JsonProperty("phone")
     private String phone;
-
     @JsonProperty("rentTime")
     private int rentTime;
-
     @JsonProperty("deliveryDate")
     private String deliveryDate;
-
     @JsonProperty("comment")
     private String comment;
-
     @JsonProperty("color")
     private String[] color;
 
-    // Конструктор
+
     public Order(String firstName, String lastName, String address, String metroStation, String phone, int rentTime, String deliveryDate, String comment, String[] color) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -42,7 +34,6 @@ public class Order {
         this.color = color;
     }
 
-    // Геттеры и сеттеры (опционально, если они нужны в других местах)
     public String getFirstName() {
         return firstName;
     }

@@ -19,6 +19,7 @@ public class CreateOrderTest {
     public CreateOrderTest(String[] colors) {
         this.colors = colors;
     }
+
 // Параметризация для заполнения поля color
     @Parameterized.Parameters(name = "Colors: {0}")
     public static Object[][] getTestData() {
